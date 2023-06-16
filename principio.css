@@ -1,0 +1,232 @@
+*body{
+  font-family: sans-serif;
+}
+.logo-type{
+  position: absolute;
+  width: 164px;
+  height: 150px;
+  left: 81px;
+  top: 27px;
+}
+.line{
+  position:absolute;
+  top: -20px;
+  height: 738px;
+  left: 230px;
+  border-right: 2px solid rgb(137, 132, 132);
+}
+.metas-btn{
+  position: absolute;
+  width: 10%;
+  height: 34px;
+  left: 67px;
+  top: 200px;
+  bottom: 980px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.alvo-btn{
+  position: absolute;
+  width: 10%;
+  height: 34px;
+  left: -28px;
+  top: 190px;
+  bottom: 980px;
+  background: transparent;
+  cursor: pointer;
+}
+.lista-btn{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: 10px;
+  top: 220px;
+  bottom: 980px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.compras-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: -35px;
+  top: 290px;
+  bottom: 980px;
+  background: transparent;
+  cursor: pointer;
+}
+.calendario-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: 50px;
+  top: 320px;
+  bottom: 980px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.calenda-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: -33px;
+  top: 390px;
+  bottom: 980px;
+  background: transparent;
+  cursor: pointer;
+}
+.anotacoes-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: 48px;
+  top: 420px;
+  bottom: 980px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.anotacion-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: -28px;
+  top: 495px;
+  bottom: 980px;
+  background: transparent;
+  cursor: pointer;
+}
+.configuracoes-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: 35px;
+  top: 520px;
+  bottom: 980px;
+  background: transparent;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+.config-btn{
+  position: absolute;
+  width: 80px;
+  height: 200px;
+  left: -32px;
+  top: 590px;
+  bottom: 980px;
+  background: transparent;
+  cursor: pointer;
+}
+
+/* centro da tela */
+
+:root{
+  --color-dark: #ffffff;
+  --color-dark2: #a929ba;
+  --color-dark3: #771584;
+  --color-white: #000000;
+  --color-green: #9154b6;
+  --color-green2: #5f148e;
+  --color-red: #c78eea;
+  --color-red2: #9c66be;
+}
+
+body{
+  font-family: sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.content--add-item{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+#input-new-task,
+#btn-new-task{
+  border-color: rgb(0, 0, 0);
+  font-size: 1rem;
+  outline: none;
+  padding: 1rem;
+}
+
+#input-new-task{
+  width: 20rem;
+  border-radius: 1rem;
+}
+
+#btn-new-task{
+  background-color: var(--color-dark2);
+  color: var(--color-white);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#btn-new-task:hover{
+  background-color: var(--color-dark3);
+}
+
+#to-do-list{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0;
+}
+
+#to-do-list li{
+  list-style-type: none;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#to-do-list li:hover{
+  background-color: var(--color-dark3);
+  transition: .4s;
+  border-radius: 1rem;
+  padding-left: 1rem;
+}
+
+#btn-ok{
+  border: none;
+  background-color: var(--color-green);
+  color: var(--color-white);
+  padding: .4rem .8rem;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .4s;
+}
+
+#btn-ok:hover{
+  background-color: var(--color-green2);
+}
